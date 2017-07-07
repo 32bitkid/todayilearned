@@ -1,0 +1,1 @@
+`npm link` globally registers package binaries
