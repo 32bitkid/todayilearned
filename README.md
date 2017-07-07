@@ -10,3 +10,4 @@
 - [Simpson's Paradox](general/170707-simpson-s-paradox.md)
 - [How does UTF-8 encode character information](general/170707-how-does-utf-8-cont.md)
 - [Typechecking with Flow](general/170707-typechecking-with-flow.md)
+- [Why TOML over JSON?](general/170707-why-toml-over-json.md) (JH) 

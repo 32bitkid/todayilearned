@@ -1,4 +1,22 @@
-[user]
-name = "James Holmes"
-email = "jholmes@n.io"
+[author]
+name = "J. Holmes"
+email="jholmes@nio.com"
+shortname = "JH"
+byline = "is an Innovation Director with [nioLabs](niolabs.com) and helps imagine a future built on distributed systems. Learn more about him [here](refactorman.com) or connect with him on [Twitter](twitter.com/32bitkid)."
 
+[templates]
+# default = """
+# ---
+# title: {{.Title}}
+# date: {{.Date}}
+# {{if ne .Category ""}}category: {{.Category}}{{end}}
+# ---
+# {{.Content}}
+
+# {{if ne .AuthorName ""}}
+# {{if eq .AuthorEmail ""}}> **{{.AuthorName}}**{{end -}}
+# {{if ne .AuthorEmail ""}}> **[{{.AuthorName}}]({{.AuthorEmail}})**{{end -}}
+# {{if ne .AuthorByline ""}} {{.AuthorByline}}{{end -}}
+# {{end}}
+# """
+index = "- [{{.Title}}]({{.Category}}/{{.Filename}}) ({{.AuthorShortname}}) \n"
